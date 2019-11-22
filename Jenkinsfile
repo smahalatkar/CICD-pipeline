@@ -1,7 +1,7 @@
 pipeline {
 		agent any
 		tools {
-		 jdk 'JAVA_HOME'
+		 jdk 'localJDK'
 		 maven 'MAVEN_HOME'
     }
 	
